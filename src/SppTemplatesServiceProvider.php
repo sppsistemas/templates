@@ -1,6 +1,6 @@
 <?php
 
-namespace Gabrielroman\SppTemplates;
+namespace Gabiroman\SppTemplates;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -11,7 +11,7 @@ class SppTemplatesServiceProvider extends ServiceProvider
         $this->loadViewsFrom(__DIR__ . '/../resources/views', 'spp-templates');
 
         $this->publishes([
-            __DIR__ . '/../resources/views' => resource_path('views/gabiroman/spp-templates'),
+            __DIR__ . '/../resources/views' => resource_path('views/spp-templates'),
         ]);
     }
 }

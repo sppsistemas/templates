@@ -1,7 +1,6 @@
 {
     "name": "gabiroman/spp-templates",
     "description": "Paquete de estilos para los sistemas del SPP",
-    "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
@@ -11,7 +10,7 @@
     "authors": [
         {
             "name": "Gabriel Roman",
-            "email": "45351498+gabiroman@users.noreply.github.com"
+            "email": "grbrainless@gmail.com"
         }
     ],
     "require": {

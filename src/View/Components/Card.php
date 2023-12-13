@@ -21,6 +21,6 @@ class Card extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('components.spp-templates.card');
+        return view('components.card');
     }
 }

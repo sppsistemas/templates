@@ -11,7 +11,8 @@ class SppTemplatesServiceProvider extends ServiceProvider
         $this->loadViewsFrom(__DIR__ . '/../resources/views', 'spp-templates');
 
         $this->publishes([
-            __DIR__ . '/../resources/views/components' => resource_path('views/components/spp-templates'),
+            __DIR__ . '/../resources/views/components' => resource_path('views/components'),
+            __DIR__ . '/../src/View/Components' => app_path('View/Components'),
         ]);
     }
 }
